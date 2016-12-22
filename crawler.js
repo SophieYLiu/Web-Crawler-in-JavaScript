@@ -2,8 +2,8 @@ var request = require('request');
 var cheerio = require('cheerio');
 var URL = require('url-parse');
 
-var START_URL = "https://www.lifewire.com/";
-var SEARCH_WORD = "command";
+var START_URL = "https://www.fullerton.edu/";
+var SEARCH_WORD = "computer";
 var MAX_PAGES_TO_VISIT = 10;
 
 var pagesVisited = {};
